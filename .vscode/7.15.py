@@ -40,3 +40,9 @@ cut=list_1[1:-1:2]
 # print(cut)
 
 #5.字典（无序可变）
+dict_1={'name':'张三','age':18,'sex':'男'} #大括号创建
+dict_1['hobby']='篮球' #字典添加元素
+dict_1['age']=20 #字典修改元素
+# print(dict_1)
+del dict_1['sex'] #字典删除元素
+# print(dict_1)
