@@ -1,5 +1,5 @@
 # 高级变量类型
-# 1.集合(无序不重复)
+# 1.集合（无序不重复）
 set_1={1,2,3,4,5,1,1,1} #大括号创建
 set_2=set([1,3,5,7]) #用列表创建
 set_j=set_1 & set_2 #集合的交 &
@@ -35,6 +35,8 @@ list_2=list((1,3,5,7)) #用元组创建
 list_1.append(6) #列表末尾添加元素
 list_1.insert(0,'A') #列表指定位置添加元素
 cut=list_1[1:-1:2]
-print(list_1)
-print(list_1[1])
-print(cut)
+# print(list_1)
+# print(list_1[1])
+# print(cut)
+
+#5.字典（无序可变）
