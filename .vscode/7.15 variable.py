@@ -38,6 +38,8 @@ cut=list_1[1:-1:2]
 # print(list_1)
 # print(list_1[1])
 # print(cut)
+list_1=list_1+['a']#列表末尾添加元素
+# print(list_1)
 
 #5.字典（无序可变）
 dict_1={'name':'张三','age':18,'sex':'男'} #大括号创建

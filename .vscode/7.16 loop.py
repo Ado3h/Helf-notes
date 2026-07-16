@@ -1,6 +1,8 @@
 # for 循环
 # for i in range(1,10):
-#     print(i)
+#    print(i)
+
+value=[i**3 for i in [1,2,3,4,5] if i<3 ]
 
 dict_1={'name':'张三','age':18,'sex':'男'}
 list_keys=dict_1.keys()
@@ -27,3 +29,4 @@ while i<10:
     if i==7:
         break
     # print(i)
+
