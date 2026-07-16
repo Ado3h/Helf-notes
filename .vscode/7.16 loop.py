@@ -18,3 +18,12 @@ list_tuple=dict_1.items()
 # dict_1.keys是视图，不支持索引
 # 区别于range惰性序列，支持索引，两者均记录规则，不占用大量内存
 
+# while循环
+i=0
+while i<10:
+    i+=1
+    if i==2:
+        continue
+    if i==7:
+        break
+    # print(i)
