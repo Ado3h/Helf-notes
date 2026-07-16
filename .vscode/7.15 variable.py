@@ -13,7 +13,7 @@ set_d=set_1 ^ set_2 #集合的对称差 ^(只在一个集合中出现的元素)
 # print(set_c)
 # print(set_d)
 
-# 2.printf的使用
+# 2.f'字符串（格式化字符串）
 a=1+1
 # print(f'元组的长度为：{a}')
 
