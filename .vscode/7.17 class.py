@@ -40,6 +40,6 @@ ex_trans=trans(1,2,c=3,d=4,e=5)
 # first, *rest = foods          # first='煎蛋', rest=['火腿']
 # combo = [*foods, '可乐']       # ['煎蛋', '火腿', '可乐']
 # menu = {**{'a': 1}, **beizhu} # {'a': 1, '辣度': '微辣'}
-# print(*foods)                 # 煎蛋 火腿
+# print(*foods)                 # 煎蛋
 
 # 2.类
